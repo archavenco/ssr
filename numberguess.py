@@ -25,9 +25,9 @@ def roll_dice(number_of_sides):
     else:
         print("Rolling....")
         sleep(2)
-        print("The first value is: %d") % first_roll
+        print("The first value is: %d" % (first_roll))
         sleep(1)
-        print("The second value is: %d") % second_roll
+        print("The second value is: %d" % (second_roll))
         sleep(1)
         total_roll = first_roll + second_roll
         print(total_roll)
