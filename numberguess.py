@@ -8,7 +8,7 @@ from time import sleep
 
 
 def get_user_guess():
-    user_guess = int(input("Guess a number"))
+    user_guess = int(input("Guess a number: "))
     return user_guess
 
 
