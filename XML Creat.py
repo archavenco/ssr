@@ -1,6 +1,8 @@
 import xml.etree.cElementTree as ET
+import locale
 
-
+print(locale.getpreferredencoding())
+f = open('72.pdf')
 root = ET.Element("root")
 ET.SubElement(root, 'Count').text = '7'
 doc = ET.SubElement(root, "results")

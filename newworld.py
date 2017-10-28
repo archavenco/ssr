@@ -1,4 +1,5 @@
-a = 'bestuurdersaansprakelijkheidsverzekering'
-print(a[0]) # ได้ b
-print(a[-1]) # ได้ g
-print(a[int(len(a)/4)])
+g = 'Sie sind das Essen und wir sind die Jäger'
+print(g.find('Essen'))
+print(g.find('der'))
+print(g.find('sind'))
+print(g.rfind('sind'))
